@@ -1,0 +1,134 @@
+
+    
+html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  body{
+      font-family: 'Chakra Petch', sans-serif !important;
+    
+  }
+  @media (min-width:1286px) {
+    .navbar-nav{
+        margin-left: 30rem;
+  }
+  }
+  .nav-link{
+
+    transition: all 0.5s ease-in-out !important;
+  }
+  .nav-link:hover{
+    transform: translateY(-5px);
+  }
+  .page-1{
+    background-image: url(file:///C:/Users/dell/Desktop/My-Store/home1.webp);
+    height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  }
+  .shoes .card img{
+    border-radius: 5px;
+    
+    transition: 0.5s;
+    width: 100%;
+
+  }
+  .card{
+    overflow: hidden;
+    height: 420px;
+  }
+  .shoes .card:hover {
+    cursor: pointer;
+    
+    }
+    .shoes .card:hover img{
+
+        filter: grayscale(1);
+    
+       transform: scale(1.1) rotate(1deg);
+       border-radius: 5px;
+       
+       }
+       .text{
+        bottom:0;
+        position: absolute;
+        margin-left: -1rem;
+        height: 70px;
+        box-sizing: border-box;
+        width: 440px;
+        background-color: #ffffff5b;
+        transition: 0.6s;
+      }
+      .text h3{
+        font-size: 28px;
+      }
+      .text .pl{
+        visibility: hidden;
+        opacity: 0;
+      }
+      .shoes .card:hover .text{
+        height: 140px;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.319);
+        z-index: 6;
+        color: #fff;
+        width: 450px;
+      }
+      .shoes .card:hover .pl{
+        opacity: 1;
+        visibility: visible;
+      
+      }
+   .men2{
+    background-image: url(/men2.webp);
+    height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+   }   
+      
+   .men2{
+    padding-top: 6rem;
+   }
+   .men3{
+    background-image: url(/men3.webp);
+    height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding-top: 7rem;
+   }   
+
+    
+   .last-page{
+background-color: #15171a;
+    height: 49vh;
+  width: 100%;
+
+   }
+   @media (min-width:760px) {
+    .last-page img{
+       width: 420px;
+       height: 417px!important;
+     margin-top: -83px !important;
+  }
+  }
+  @media (max-width:482px) {
+    .last-page img{
+   
+    display: none; 
+    }
+    .text-foot{
+      text-align: center;
+    }
+  }
+  
+
+
+  
+  
